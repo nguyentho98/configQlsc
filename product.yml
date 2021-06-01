@@ -9,6 +9,7 @@ management:
 #port: 8082
 spring:
    datasource:
+      driver-class-name: com.mysql.jdbc.Driver  
       url: jdbc:mysql://thonx.cutnjbmkevif.ap-southeast-1.rds.amazonaws.com:3306/product
       username: admin
       password: Xuantho98
