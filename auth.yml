@@ -3,9 +3,9 @@ server:
    port: 9100
 spring:
    datasource:
-      url: jdbc:mysql://thonx.cutnjbmkevif.ap-southeast-1.rds.amazonaws.com:3306/user
-      username: admin
-      password: Xuantho98
+      url: jdbc:mysql://localhost:3306/user
+      username: root
+      password: root
    jpa:
       show-sql: true
       hibernate:
